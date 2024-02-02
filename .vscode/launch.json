@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FinanceManagerApplication",
+            "request": "launch",
+            "mainClass": "com.personalfinancemanager.financemanager.FinanceManagerApplication",
+            "projectName": "financemanager"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-Application<financas-app>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

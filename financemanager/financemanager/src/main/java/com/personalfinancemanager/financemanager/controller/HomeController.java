@@ -1,5 +1,14 @@
 package com.personalfinancemanager.financemanager.controller;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
 public class HomeController {
+
+    @GetMapping("/")  
+    public String home() {
+        return "index"; //Thi will look for a file called ""index.html", in the folders resources/static/templates
+    }
     
 }
